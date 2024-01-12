@@ -28,7 +28,7 @@ for (let i = 0; i < userRating; i++) {
 }
 }
 
-let lookingForTravelPrices = prompt("Looking for great travel prices?");
+let lookingForTravelPrices = prompt("Looking for great travel prices? yes or no");
 if (lookingForTravelPrices.toLowerCase() === "yes") {
     function travelSites() {
         document.write("<p>Alright, check out <a href='https://www.trivago.com/'>these</a> great deals</p>");
